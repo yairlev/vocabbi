@@ -33,392 +33,317 @@
     <script>
         $(document).ready(function () {
             $(document).preferences();
-            $('.sample_text').mouseup(function () { event.stopImmediatePropagation(); });
         });
     </script>
 </head>
 
 <body id="preferences_container">
-    <iframe frameborder="0" scrolling="no"></iframe>
-    <div class="left">
-        <div class="header" style="margin:0px;">
-            Default Translation Language
-        </div>
-        <div>
-            <select id="default_lang" class="select languages">
-                <option value="af">Afrikaans</option>
-                <option value="sq">Albanian</option>
-                <option value="ar">Arabic</option>
-                <!--<option value="hy">Armenian</option>-->
-                <!-- <option value="az">Azerbaijani</option>-->
-                <!--<option value="eu">Basque</option>-->
-                <option value="be">Belarussian</option>
-                <!--<option value="bn">Bengali</option>-->
-                <option value="bg">Bulgarian</option>
-                <option value="ca">Catalan</option>
-                <option value="zh-CN">Chinese (Simplified)</option>
-                <option value="zh-TW">Chinese (Traditional)</option>
-                <option value="hr">Croatian</option>
-                <option value="cs">Czech</option>
-                <option value="da">Danish</option>
-                <option value="nl">Dutch</option>
-                <option value="en">English</option>
-                <option value="et">Estonian</option>
-                <option value="tl">Filipino</option>
-                <option value="fi">Finnish</option>
-                <option value="fr">French</option>
-                <option value="gl">Galician</option>
-                <!--<option value="ka">Georgian</option>-->
-                <option value="de">German</option>
-                <option value="el">Greek</option>
-                <!--<option value="gu">Gujarati</option>-->
-                <option value="ht">Haitian Creole</option>
-                <option value="iw">Hebrew</option>
-                <option value="hi">Hindi</option>
-                <option value="hu">Hungarian</option>
-                <option value="is">Icelandic</option>
-                <option value="id">Indonesian</option>
-                <option value="ga">Irish</option>
-                <option value="it">Italian</option>
-                <option value="ja">Japanese</option>
-                <!--<option value="kn">Kannada</option>-->
-                <option value="ko">Korean</option>
-                <!--<option value="la">Latin</option>-->
-                <option value="lv">Latvian</option>
-                <option value="lt">Lithuanian</option>
-                <option value="mk">Macedonian</option>
-                <option value="ms">Malay</option>
-                <option value="mt">Maltese</option>
-                <option value="no">Norwegian</option>
-                <option value="fa">Persian</option>
-                <option value="pl">Polish</option>
-                <option value="pt">Portuguese</option>
-                <option value="ro">Romanian</option>
-                <option value="ru">Russian</option>
-                <option value="sr">Serbian</option>
-                <option value="sk">Slovak</option>
-                <option value="sl">Slovenian</option>
-                <option value="es">Spanish</option>
-                <option value="sw">Swahili</option>
-                <option value="sv">Swedish</option>
-                <!--<option value="ta">Tamil</option>-->
-                <!--<option value="te">Telugu</option>-->
-                <option value="th">Thai</option>
-                <option value="tr">Turkish</option>
-                <option value="uk">Ukrainian</option>
-                <!-- <option value="ur">Urdu</option>-->
-                <option value="vi">Vietnamese</option>
-                <option value="cy">Welsh</option>
-                <option value="ji">Yiddish</option>
-            </select>
-        </div>
-        <div class="header" style="margin-top:35px;">
-            Custom Translations
-        </div>
-        <div>
-            <select id="source_lang" class="select languages">
-                <option value="af">Afrikaans</option>
-                <option value="sq">Albanian</option>
-                <option value="ar">Arabic</option>
-                <!--<option value="hy">Armenian</option>-->
-               <!-- <option value="az">Azerbaijani</option>-->
-                <!--<option value="eu">Basque</option>-->
-                <option value="be">Belarussian</option>
-                <!--<option value="bn">Bengali</option>-->
-                <option value="bg">Bulgarian</option>
-                <option value="ca">Catalan</option>
-                <option value="zh-CN">Chinese (Simplified)</option>
-                <option value="zh-TW">Chinese (Traditional)</option>
-                <option value="hr">Croatian</option>
-                <option value="cs">Czech</option>
-                <option value="da">Danish</option>
-                <option value="nl">Dutch</option>
-                <option value="en">English</option>
-                <option value="et">Estonian</option>
-                <option value="tl">Filipino</option>
-                <option value="fi">Finnish</option>
-                <option value="fr">French</option>
-                <option value="gl">Galician</option>
-                <!--<option value="ka">Georgian</option>-->
-                <option value="de">German</option>
-                <option value="el">Greek</option>
-                <!--<option value="gu">Gujarati</option>-->
-                <option value="ht">Haitian Creole</option>
-                <option value="iw">Hebrew</option>
-                <option value="hi">Hindi</option>
-                <option value="hu">Hungarian</option>
-                <option value="is">Icelandic</option>
-                <option value="id">Indonesian</option>
-                <option value="ga">Irish</option>
-                <option value="it">Italian</option>
-                <option value="ja">Japanese</option>
-                <!--<option value="kn">Kannada</option>-->
-                <option value="ko">Korean</option>
-                <!--<option value="la">Latin</option>-->
-                <option value="lv">Latvian</option>
-                <option value="lt">Lithuanian</option>
-                <option value="mk">Macedonian</option>
-                <option value="ms">Malay</option>
-                <option value="mt">Maltese</option>
-                <option value="no">Norwegian</option>
-                <option value="fa">Persian</option>
-                <option value="pl">Polish</option>
-                <option value="pt">Portuguese</option>
-                <option value="ro">Romanian</option>
-                <option value="ru">Russian</option>
-                <option value="sr">Serbian</option>
-                <option value="sk">Slovak</option>
-                <option value="sl">Slovenian</option>
-                <option value="es">Spanish</option>
-                <option value="sw">Swahili</option>
-                <option value="sv">Swedish</option>
-                <!--<option value="ta">Tamil</option>-->
-                <!--<option value="te">Telugu</option>-->
-                <option value="th">Thai</option>
-                <option value="tr">Turkish</option>
-                <option value="uk">Ukrainian</option>
-                <!-- <option value="ur">Urdu</option>-->
-                <option value="vi">Vietnamese</option>
-                <option value="cy">Welsh</option>
-                <option value="ji">Yiddish</option>
-            </select>
-            <select id="target_lang" class="select languages">
-                <option value="af">Afrikaans</option>
-                <option value="sq">Albanian</option>
-                <option value="ar">Arabic</option>
-                <!--<option value="hy">Armenian</option>-->
-               <!-- <option value="az">Azerbaijani</option>-->
-                <!--<option value="eu">Basque</option>-->
-                <option value="be">Belarussian</option>
-                <!--<option value="bn">Bengali</option>-->
-                <option value="bg">Bulgarian</option>
-                <option value="ca">Catalan</option>
-                <option value="zh-CN">Chinese (Simplified)</option>
-                <option value="zh-TW">Chinese (Traditional)</option>
-                <option value="hr">Croatian</option>
-                <option value="cs">Czech</option>
-                <option value="da">Danish</option>
-                <option value="nl">Dutch</option>
-                <option value="en">English</option>
-                <option value="et">Estonian</option>
-                <option value="tl">Filipino</option>
-                <option value="fi">Finnish</option>
-                <option value="fr">French</option>
-                <option value="gl">Galician</option>
-                <!--<option value="ka">Georgian</option>-->
-                <option value="de">German</option>
-                <option value="el">Greek</option>
-                <!--<option value="gu">Gujarati</option>-->
-                <option value="ht">Haitian Creole</option>
-                <option value="iw">Hebrew</option>
-                <option value="hi">Hindi</option>
-                <option value="hu">Hungarian</option>
-                <option value="is">Icelandic</option>
-                <option value="id">Indonesian</option>
-                <option value="ga">Irish</option>
-                <option value="it">Italian</option>
-                <option value="ja">Japanese</option>
-                <!--<option value="kn">Kannada</option>-->
-                <option value="ko">Korean</option>
-                <!--<option value="la">Latin</option>-->
-                <option value="lv">Latvian</option>
-                <option value="lt">Lithuanian</option>
-                <option value="mk">Macedonian</option>
-                <option value="ms">Malay</option>
-                <option value="mt">Maltese</option>
-                <option value="no">Norwegian</option>
-                <option value="fa">Persian</option>
-                <option value="pl">Polish</option>
-                <option value="pt">Portuguese</option>
-                <option value="ro">Romanian</option>
-                <option value="ru">Russian</option>
-                <option value="sr">Serbian</option>
-                <option value="sk">Slovak</option>
-                <option value="sl">Slovenian</option>
-                <option value="es">Spanish</option>
-                <option value="sw">Swahili</option>
-                <option value="sv">Swedish</option>
-                <!--<option value="ta">Tamil</option>-->
-                <!--<option value="te">Telugu</option>-->
-                <option value="th">Thai</option>
-                <option value="tr">Turkish</option>
-                <option value="uk">Ukrainian</option>
-                <!-- <option value="ur">Urdu</option>-->
-                <option value="vi">Vietnamese</option>
-                <option value="cy">Welsh</option>
-                <option value="ji">Yiddish</option>
-            </select>
-            <a id="add_language_pair" href="#">Add</a>
-            <div class="language_pairs">
-            </div>
-        </div>
-        <div class="header">
-            Shortcut Key
-        </div>
-        <div style="overflow: hidden;">
-            <div style="float: left;">
-                <select class="select key_codes">
-                    <option value="17">Control</option>
-                    <!--<option value="16">Shift</option>-->
-                    <option value="18">Alt</option>
-                </select>
-            </div>
-            <div style="float: left; font-size:30px; margin:0px 10px;">
-                +
-            </div>
-            <div style="float: left">
-                <img src="images/computer-mouse.png" style="height:100px; width:100px;"/>
-            </div>
-        </div>
-        <div class="header">
-            Tooltip Background Color
-        </div>
-        <div>
-            <div class="color_container" style="position:relative; padding:3px; border:solid 1px black; height:25px; width:25px; cursor:pointer;">
-                <div class="current_color_container" style="width:100%; height:100%;"></div>
-                <div style="position:absolute; bottom:0px; right:0px; width:4px; height:4px; background-color:#000000;"></div>
-            </div>
-            <table class="color_picker" cellpadding="0" cellspacing="0" style="padding: 5px; display:none;">
-                <tr>
-                    <td class="color_cell top_cell" style="background-color: #000000">
-                    </td>
-                    <td class="color_cell top_cell" style="background-color: #333333">
-                    </td>
-                    <td class="color_cell top_cell" style="background-color: #666666">
-                    </td>
-                    <td class="color_cell top_cell" style="background-color: #999999">
-                    </td>
-                    <td class="color_cell top_cell" style="background-color: #CCCCCC">
-                    </td>
-                    <td class="color_cell top_cell" style="background-color: #DDDDDD">
-                    </td>
-                    <td class="color_cell top_cell" style="background-color: #EEEEEE">
-                    </td>
-                    <td class="color_cell top_cell right_cell" style="background-color: #FFFFFF">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="color_cell" style="background-color: #CF2A27">
-                    </td>
-                    <td class="color_cell" style="background-color: #FF9900">
-                    </td>
-                    <td class="color_cell" style="background-color: #FFFF00">
-                    </td>
-                    <td class="color_cell" style="background-color: #009E0F">
-                    </td>
-                    <td class="color_cell" style="background-color: #00FFFF">
-                    </td>
-                    <td class="color_cell" style="background-color: #2B78E4">
-                    </td>
-                    <td class="color_cell" style="background-color: #9900FF">
-                    </td>
-                    <td class="color_cell right_cell" style="background-color: #FF00FF">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="color_cell" style="background-color: #EA9999">
-                    </td>
-                    <td class="color_cell" style="background-color: #F9CB9C">
-                    </td>
-                    <td class="color_cell" style="background-color: #FFE599">
-                    </td>
-                    <td class="color_cell" style="background-color: #B6D7A8">
-                    </td>
-                    <td class="color_cell" style="background-color: #A2C4C9">
-                    </td>
-                    <td class="color_cell" style="background-color: #9FC5F8">
-                    </td>
-                    <td class="color_cell" style="background-color: #B4A7D6">
-                    </td>
-                    <td class="color_cell right_cell" style="background-color: #D5A6BD">
-                    </td>
-                </tr>
-                 <tr>
-                    <td class="color_cell" style="background-color: #E06666">
-                    </td>
-                    <td class="color_cell" style="background-color: #F6B26B">
-                    </td>
-                    <td class="color_cell" style="background-color: #FFD966">
-                    </td>
-                    <td class="color_cell" style="background-color: #93C47D">
-                    </td>
-                    <td class="color_cell" style="background-color: #76A5AF">
-                    </td>
-                    <td class="color_cell" style="background-color: #6FA8DC">
-                    </td>
-                    <td class="color_cell" style="background-color: #8E7CC3">
-                    </td>
-                    <td class="color_cell right_cell" style="background-color: #C27BA0">
-                    </td>
-                </tr>
-                 <tr>
-                    <td class="color_cell" style="background-color: #990000">
-                    </td>
-                    <td class="color_cell" style="background-color: #990000">
-                    </td>
-                    <td class="color_cell" style="background-color: #BF9000">
-                    </td>
-                    <td class="color_cell" style="background-color: #38761D">
-                    </td>
-                    <td class="color_cell" style="background-color: #134F5C">
-                    </td>
-                    <td class="color_cell" style="background-color: #085394">
-                    </td>
-                    <td class="color_cell" style="background-color: #351C75">
-                    </td>
-                    <td class="color_cell right_cell" style="background-color: #741B47">
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div>
-            <div class="header">
-                Font Size
-            </div>
-            <select class="select font_size">
-                <option value="12">12px</option>
-                <option value="13">13px</option>
-                <option value="14">14px</option>
-                <option value="15">15px</option>
-                <option value="16">16px</option>
-                <option value="17">17px</option>
-                <option value="18">18px</option>
-                <option value="19">19px</option>
-                <option value="20">20px</option>
-                <option value="21">21px</option>
-                <option value="22">22px</option>
-            </select>
-        </div>
-       <!-- <div style="margin-top:35px;">
-            <input class="button save" type="button" value="Save" />
-            <input class="button cancel" type="button" value="Cancel" />
-        </div>-->
+    <div class="header">Default Translation Language</div>
+    <div>
+        <select id="default_lang" class="select languages">
+            <option value="af">Afrikaans</option>
+            <option value="sq">Albanian</option>
+            <option value="ar">Arabic</option>
+            <!--<option value="hy">Armenian</option>-->
+            <!-- <option value="az">Azerbaijani</option>-->
+            <!--<option value="eu">Basque</option>-->
+            <option value="be">Belarussian</option>
+            <!--<option value="bn">Bengali</option>-->
+            <option value="bg">Bulgarian</option>
+            <option value="ca">Catalan</option>
+            <option value="zh-CN">Chinese (Simplified)</option>
+            <option value="zh-TW">Chinese (Traditional)</option>
+            <option value="hr">Croatian</option>
+            <option value="cs">Czech</option>
+            <option value="da">Danish</option>
+            <option value="nl">Dutch</option>
+            <option value="en">English</option>
+            <option value="et">Estonian</option>
+            <option value="tl">Filipino</option>
+            <option value="fi">Finnish</option>
+            <option value="fr">French</option>
+            <option value="gl">Galician</option>
+            <!--<option value="ka">Georgian</option>-->
+            <option value="de">German</option>
+            <option value="el">Greek</option>
+            <!--<option value="gu">Gujarati</option>-->
+            <option value="ht">Haitian Creole</option>
+            <option value="iw">Hebrew</option>
+            <option value="hi">Hindi</option>
+            <option value="hu">Hungarian</option>
+            <option value="is">Icelandic</option>
+            <option value="id">Indonesian</option>
+            <option value="ga">Irish</option>
+            <option value="it">Italian</option>
+            <option value="ja">Japanese</option>
+            <!--<option value="kn">Kannada</option>-->
+            <option value="ko">Korean</option>
+            <!--<option value="la">Latin</option>-->
+            <option value="lv">Latvian</option>
+            <option value="lt">Lithuanian</option>
+            <option value="mk">Macedonian</option>
+            <option value="ms">Malay</option>
+            <option value="mt">Maltese</option>
+            <option value="no">Norwegian</option>
+            <option value="fa">Persian</option>
+            <option value="pl">Polish</option>
+            <option value="pt">Portuguese</option>
+            <option value="ro">Romanian</option>
+            <option value="ru">Russian</option>
+            <option value="sr">Serbian</option>
+            <option value="sk">Slovak</option>
+            <option value="sl">Slovenian</option>
+            <option value="es">Spanish</option>
+            <option value="sw">Swahili</option>
+            <option value="sv">Swedish</option>
+            <!--<option value="ta">Tamil</option>-->
+            <!--<option value="te">Telugu</option>-->
+            <option value="th">Thai</option>
+            <option value="tr">Turkish</option>
+            <option value="uk">Ukrainian</option>
+            <!-- <option value="ur">Urdu</option>-->
+            <option value="vi">Vietnamese</option>
+            <option value="cy">Welsh</option>
+            <option value="ji">Yiddish</option>
+        </select>
     </div>
-    <!--<div class="right">
-        <div class="sample_text_container">
-            <span class="sample_text" style="position: relative;">This is a sample text</span>
+
+    <div class="header">Custom Translations</div>
+    <div>
+        <select id="source_lang" class="select languages">
+            <option value="af">Afrikaans</option>
+            <option value="sq">Albanian</option>
+            <option value="ar">Arabic</option>
+            <!--<option value="hy">Armenian</option>-->
+           <!-- <option value="az">Azerbaijani</option>-->
+            <!--<option value="eu">Basque</option>-->
+            <option value="be">Belarussian</option>
+            <!--<option value="bn">Bengali</option>-->
+            <option value="bg">Bulgarian</option>
+            <option value="ca">Catalan</option>
+            <option value="zh-CN">Chinese (Simplified)</option>
+            <option value="zh-TW">Chinese (Traditional)</option>
+            <option value="hr">Croatian</option>
+            <option value="cs">Czech</option>
+            <option value="da">Danish</option>
+            <option value="nl">Dutch</option>
+            <option value="en">English</option>
+            <option value="et">Estonian</option>
+            <option value="tl">Filipino</option>
+            <option value="fi">Finnish</option>
+            <option value="fr">French</option>
+            <option value="gl">Galician</option>
+            <!--<option value="ka">Georgian</option>-->
+            <option value="de">German</option>
+            <option value="el">Greek</option>
+            <!--<option value="gu">Gujarati</option>-->
+            <option value="ht">Haitian Creole</option>
+            <option value="iw">Hebrew</option>
+            <option value="hi">Hindi</option>
+            <option value="hu">Hungarian</option>
+            <option value="is">Icelandic</option>
+            <option value="id">Indonesian</option>
+            <option value="ga">Irish</option>
+            <option value="it">Italian</option>
+            <option value="ja">Japanese</option>
+            <!--<option value="kn">Kannada</option>-->
+            <option value="ko">Korean</option>
+            <!--<option value="la">Latin</option>-->
+            <option value="lv">Latvian</option>
+            <option value="lt">Lithuanian</option>
+            <option value="mk">Macedonian</option>
+            <option value="ms">Malay</option>
+            <option value="mt">Maltese</option>
+            <option value="no">Norwegian</option>
+            <option value="fa">Persian</option>
+            <option value="pl">Polish</option>
+            <option value="pt">Portuguese</option>
+            <option value="ro">Romanian</option>
+            <option value="ru">Russian</option>
+            <option value="sr">Serbian</option>
+            <option value="sk">Slovak</option>
+            <option value="sl">Slovenian</option>
+            <option value="es">Spanish</option>
+            <option value="sw">Swahili</option>
+            <option value="sv">Swedish</option>
+            <!--<option value="ta">Tamil</option>-->
+            <!--<option value="te">Telugu</option>-->
+            <option value="th">Thai</option>
+            <option value="tr">Turkish</option>
+            <option value="uk">Ukrainian</option>
+            <!-- <option value="ur">Urdu</option>-->
+            <option value="vi">Vietnamese</option>
+            <option value="cy">Welsh</option>
+            <option value="ji">Yiddish</option>
+        </select>
+        <select id="target_lang" class="select languages">
+            <option value="af">Afrikaans</option>
+            <option value="sq">Albanian</option>
+            <option value="ar">Arabic</option>
+            <!--<option value="hy">Armenian</option>-->
+           <!-- <option value="az">Azerbaijani</option>-->
+            <!--<option value="eu">Basque</option>-->
+            <option value="be">Belarussian</option>
+            <!--<option value="bn">Bengali</option>-->
+            <option value="bg">Bulgarian</option>
+            <option value="ca">Catalan</option>
+            <option value="zh-CN">Chinese (Simplified)</option>
+            <option value="zh-TW">Chinese (Traditional)</option>
+            <option value="hr">Croatian</option>
+            <option value="cs">Czech</option>
+            <option value="da">Danish</option>
+            <option value="nl">Dutch</option>
+            <option value="en">English</option>
+            <option value="et">Estonian</option>
+            <option value="tl">Filipino</option>
+            <option value="fi">Finnish</option>
+            <option value="fr">French</option>
+            <option value="gl">Galician</option>
+            <!--<option value="ka">Georgian</option>-->
+            <option value="de">German</option>
+            <option value="el">Greek</option>
+            <!--<option value="gu">Gujarati</option>-->
+            <option value="ht">Haitian Creole</option>
+            <option value="iw">Hebrew</option>
+            <option value="hi">Hindi</option>
+            <option value="hu">Hungarian</option>
+            <option value="is">Icelandic</option>
+            <option value="id">Indonesian</option>
+            <option value="ga">Irish</option>
+            <option value="it">Italian</option>
+            <option value="ja">Japanese</option>
+            <!--<option value="kn">Kannada</option>-->
+            <option value="ko">Korean</option>
+            <!--<option value="la">Latin</option>-->
+            <option value="lv">Latvian</option>
+            <option value="lt">Lithuanian</option>
+            <option value="mk">Macedonian</option>
+            <option value="ms">Malay</option>
+            <option value="mt">Maltese</option>
+            <option value="no">Norwegian</option>
+            <option value="fa">Persian</option>
+            <option value="pl">Polish</option>
+            <option value="pt">Portuguese</option>
+            <option value="ro">Romanian</option>
+            <option value="ru">Russian</option>
+            <option value="sr">Serbian</option>
+            <option value="sk">Slovak</option>
+            <option value="sl">Slovenian</option>
+            <option value="es">Spanish</option>
+            <option value="sw">Swahili</option>
+            <option value="sv">Swedish</option>
+            <!--<option value="ta">Tamil</option>-->
+            <!--<option value="te">Telugu</option>-->
+            <option value="th">Thai</option>
+            <option value="tr">Turkish</option>
+            <option value="uk">Ukrainian</option>
+            <!-- <option value="ur">Urdu</option>-->
+            <option value="vi">Vietnamese</option>
+            <option value="cy">Welsh</option>
+            <option value="ji">Yiddish</option>
+        </select>
+        <a id="add_language_pair" href="#">Add</a>
+        <div class="language_pairs">
         </div>
-        <div style="width:600px; margin-top:90px;">
-            <div class="header">Try it out on the paragraph below...</div>
-            <div style="margin-top:20px; font-size:18px; color:Gray;">
-                1. <span>Control</span> + mouse right-click on any word.
-            </div>
-            <div style="font-size:18px; color:Gray;">
-                2. Select a word/s while holding the <span>Control</span> key.
-            </div>
-            <p style="font-size:16px; font-family:Arial; margin-top:80px;">
-               Dengue fever is an infectious tropical disease caused by the dengue virus. 
-               Symptoms include fever, headache, muscle and joint pains, and a characteristic skin rash 
-               that is similar to measles. Dengue is transmitted by several species of mosquito within the Aedes genus, 
-               principally A. aegypti. The virus has four different types; 
-               infection with one type usually gives lifelong immunity to that type, but only short-term immunity to the others. 
-               Subsequent infection with a different type increases the risk of severe complications. 
-            </p>
+    </div>
+
+    <div class="header">Shortcut Key</div>
+    <div style="overflow: hidden;">
+        <div style="float: left;">
+            <select class="select key_codes">
+                <option value="17">Control</option>
+                <!--<option value="16">Shift</option>-->
+                <option value="18">Alt</option>
+            </select>
         </div>
-    </div>-->
-   <!-- <span class="save_message">
+        <div style="float: left; font-size:30px; margin:0px 10px;">
+            +
+        </div>
+        <div style="float: left">
+            <img src="images/computer-mouse.png" style="height:100px; width:100px;"/>
+        </div>
+    </div>
+
+    <div class="header">Tooltip Background Color</div>
+    <div>
+        <div class="color_container">
+            <div class="current_color_container"></div>
+            <div class="currect_color_container_pixel"></div>
+        </div>
+        <table class="color_picker" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="color_cell top_cell" style="background-color: #000000"></td>
+                <td class="color_cell top_cell" style="background-color: #333333"></td>
+                <td class="color_cell top_cell" style="background-color: #666666"></td>
+                <td class="color_cell top_cell" style="background-color: #999999"></td>
+                <td class="color_cell top_cell" style="background-color: #CCCCCC"></td>
+                <td class="color_cell top_cell" style="background-color: #DDDDDD"></td>
+                <td class="color_cell top_cell" style="background-color: #EEEEEE"></td>
+                <td class="color_cell top_cell right_cell" style="background-color: #FFFFFF"></td>
+            </tr>
+            <tr>
+                <td class="color_cell" style="background-color: #CF2A27"></td>
+                <td class="color_cell" style="background-color: #FF9900"></td>
+                <td class="color_cell" style="background-color: #FFFF00"></td>
+                <td class="color_cell" style="background-color: #009E0F"></td>
+                <td class="color_cell" style="background-color: #00FFFF"></td>
+                <td class="color_cell" style="background-color: #2B78E4"></td>
+                <td class="color_cell" style="background-color: #9900FF"></td>
+                <td class="color_cell right_cell" style="background-color: #FF00FF"></td>
+            </tr>
+            <tr>
+                <td class="color_cell" style="background-color: #EA9999"></td>
+                <td class="color_cell" style="background-color: #F9CB9C"></td>
+                <td class="color_cell" style="background-color: #FFE599"></td>
+                <td class="color_cell" style="background-color: #B6D7A8"></td>
+                <td class="color_cell" style="background-color: #A2C4C9"></td>
+                <td class="color_cell" style="background-color: #9FC5F8"></td>
+                <td class="color_cell" style="background-color: #B4A7D6"></td>
+                <td class="color_cell right_cell" style="background-color: #D5A6BD"></td>
+            </tr>
+             <tr>
+                <td class="color_cell" style="background-color: #E06666"></td>
+                <td class="color_cell" style="background-color: #F6B26B"></td>
+                <td class="color_cell" style="background-color: #FFD966"></td>
+                <td class="color_cell" style="background-color: #93C47D"></td>
+                <td class="color_cell" style="background-color: #76A5AF"></td>
+                <td class="color_cell" style="background-color: #6FA8DC"></td>
+                <td class="color_cell" style="background-color: #8E7CC3"></td>
+                <td class="color_cell right_cell" style="background-color: #C27BA0"></td>
+            </tr>
+             <tr>
+                <td class="color_cell" style="background-color: #990000"></td>
+                <td class="color_cell" style="background-color: #990000"></td>
+                <td class="color_cell" style="background-color: #BF9000"></td>
+                <td class="color_cell" style="background-color: #38761D"></td>
+                <td class="color_cell" style="background-color: #134F5C"></td>
+                <td class="color_cell" style="background-color: #085394"></td>
+                <td class="color_cell" style="background-color: #351C75"></td>
+                <td class="color_cell right_cell" style="background-color: #741B47"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="header">Font Size</div>
+    <div>
+        <select class="select font_size">
+            <option value="12">12px</option>
+            <option value="13">13px</option>
+            <option value="14">14px</option>
+            <option value="15">15px</option>
+            <option value="16">16px</option>
+            <option value="17">17px</option>
+            <option value="18">18px</option>
+            <option value="19">19px</option>
+            <option value="20">20px</option>
+            <option value="21">21px</option>
+            <option value="22">22px</option>
+        </select>
+    </div>
+
+    <div class="save_message">
         Preferences saved successfully.
-    </span>-->
+    </div>
 </body>
 
 </html>
