@@ -1,0 +1,29 @@
+{
+  "name": "Vocabbi Dictionary",
+  "version": "3.0",
+  "options_page": "preferences.html",
+  "description": "Translate a single word or a paragraph by simply clicking your mouse. Translations by Google.",
+  "icons": {"16": "images/icon_16.png", "32":"images/icon_32.png", "48": "images/icon_48.png", "128": "images/icon_128.png"},
+  "background_page": "background.html",
+  "content_scripts": [
+    {
+    "matches": ["<all_urls>"],
+    "js": ["resources/google_jsapi.js", "resources/jquery-1.7.1.min.js", "resources/json2.js", "resources/jquery.unescape.js", "resources/jquery.md5.js", 
+	"resources/jquerymx-1.0.custom.min.js", "resources/jquery.class.js", "resources/jquery.event.js", 
+	"resources/jquery.event.destroyed.js", "resources/jquery.lang.js", "resources/jquery.lang.openajax.js",
+	 "resources/jquery.lang.rsplit.js", "resources/jquery.controller.view.js", "resources/jquery.controller.js", 
+	 "resources/jquery.model.js", "resources/jquery.dom.js", "resources/jquery.view.js", "resources/settings_proxy.js", "resources/jquery.view.ejs.js", 
+	 "controllers/vocabbi_document_controller.js", "controllers/vocabbi_tooltip_controller.js", "models/user.js",
+	 "models/key_codes.js", "models/tooltip.js", "models/google_translate.js", "resources/xregexp.js", "resources/xregexp-unicode.js", "controllers/wrapper_controller.js", "resources/google_dictionary.js", "resources/speech.js", "resources/tag.js", "models/language_codes.js"],
+	"css": ["style/vocabbi.css"],
+	"run_at": "document_start",
+    "all_frames": true
+    }
+  ],
+  "page_action": {
+    "default_icon": "images/icon_32.png", 
+    "default_title": "Vocabbi Dictionary",    
+    "default_popup": "popup.html"
+  },
+  "permissions":["tabs", "<all_urls>"]
+}
