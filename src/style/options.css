@@ -17,6 +17,9 @@
     border-radius: 5px;
     display: none;
 }
+#popup_container .options {
+    float: left;
+}
 #popup_container .preferences {
     float: right;
     width: 20px;
