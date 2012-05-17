@@ -17,12 +17,28 @@
 
             var targetLanguage = 'en';
 
+            var url;
+
             if (sourceLanguageObj) {
-                if (sourceLanguageObj.targetLanguages.contains(Settings.get_default_language())) {
+
+                var targets = $.grep(Settings.get_language_pairs(), function (elem, index) {
+                    return elem.src == sourceLanguage;
+                });
+
+
+
+                if (targets.length > 0) {
+                    targetLanguage = targets[0].target;
+                }
+                else {
                     targetLanguage = Settings.get_default_language();
                 }
+
+
             }
-            var url = 'https://www.google.com/search?defl=' + sourceLanguage + '&hl=' + targetLanguage + '&q=' + text + '&tbo=1&tbs=dfn:1';
+
+            url = "http://translate.google.com/#" + sourceLanguage + "|" + targetLanguage + "|" + text;
+
             chrome.tabs.update(tabId, { url: url });
         }
 
@@ -42,15 +58,14 @@
                 function (result) {
                     if (result.success) {
                         var language = result.source_language;
-                        console.log('detected language: ' + language);
 
-                        Omnibox.textLanguage = language;
+                        if (language) {
+                            Omnibox.textLanguage = language;
+                            chrome.omnibox.setDefaultSuggestion({ description: 'Search for the word <match>' + text + ' (' + LanguageCodes[language] + ')</match> in Google Dictionary' });
+                        }
 
-                        var suggestions = [];
-
-                        chrome.omnibox.setDefaultSuggestion({ description: 'Search for the word <match>' + text + ' (' + LanguageCodes[language] + ')</match> in Google Dictionary' });
-
-                        if (language && Omnibox.pageLanguage && LanguageCodes[language] != LanguageCodes[Omnibox.pageLanguage]) {
+                        if (Omnibox.pageLanguage && LanguageCodes[language] != LanguageCodes[Omnibox.pageLanguage]) {
+                            var suggestions = [];
                             suggestions.push({ content: text + "{{" + Omnibox.pageLanguage + "}}", description: 'Search for the word <match>' + text + ' (' + LanguageCodes[Omnibox.pageLanguage] + ')</match> in Google Dictionary' })
                             suggest(suggestions);
                         }
@@ -65,8 +80,6 @@
             Omnibox.selectedTabId = tab.id;
 
             chrome.tabs.detectLanguage(tab.id, function (language) {
-                console.log('page language: ' + language);
-
                 Omnibox.pageLanguage = language;
             });
         });
