@@ -1,0 +1,139 @@
+/*******************************************************/
+/*                    PREFERENCES                      */
+/*******************************************************/
+#preferences_container {
+    font-family: Comic Sans MS, Arial;
+    font-size: 20px;
+    padding: 40px;
+}
+#preferences_container .header {
+    color: #000000;
+    font-size: 26px;
+    font-family: Comic Sans MS, Arial;
+    margin-top: 35px;
+}
+#preferences_container .select {
+    padding: 3px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#preferences_container .left {
+    width: 35%;
+    float: left;
+}
+#preferences_container .right {
+    float: left;
+}
+#preferences_container .color_picker {
+    background-color: #E5E6E7;
+    border: solid 1px #000000;
+    margin-top:3px;
+}
+#preferences_container .color_cell {
+    width: 20px;
+    height: 20px;
+    border: solid 1px #000000;
+    border-right: none;
+    border-top: none;
+}
+#preferences_container .top_cell {
+    border-top: solid 1px #000000;
+}
+#preferences_container .right_cell {
+    border-right: solid 1px #000000;
+}
+#preferences_container .color_cell_selected {
+    border: solid 1px #ffffff;
+    width: 19px;
+    height: 19px;
+}
+#preferences_container .test_message {
+    font-size: 30px;
+    font-family: Arial;
+}
+#preferences_container .button {
+    font-size:20px;
+}
+#preferences_container .sample_text {
+    font-size:25px;
+}
+#preferences_container .sample_text_container {
+    border-radius: 5px;
+    border:solid 1px #000000;
+    width:400px;
+    height:70px;
+    text-align:center;
+    padding-top:70px;
+}
+#preferences_container .save_message {
+    position: absolute;
+    top:0px;
+    background-color:#F8E6CA;
+    font-family:Arial;
+    padding:5px 15px;
+    border-radius:5px;
+    display:none;
+}
+#preferences_container .language_pairs {
+    margin-top:10px;
+}
+#preferences_container .remove {
+    margin-left:15px;
+}
+
+/*******************************************************/
+/*                       POPUP                         */
+/*******************************************************/
+#popup_container {
+    width: 280px;
+    height: 140px;
+    font-family: Arial, Sans-Serif;
+    font-size: 14px;
+}
+#popup_container .save_message {
+    background-color: #F9EDBE;
+    border: solid 1px #F0C36D;
+    font-size: 12px;
+    padding: 5px 5px;
+    margin-top: 2px;
+    border-radius: 5px;
+    display: none;
+}
+#popup_container .options {
+    float: left;
+}
+#popup_container .preferences {
+    float: right;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#popup_container #iframe_share {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    width: 100%;
+    height: 65px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*******************************************************/
+/*                       SHARE                         */
+/*******************************************************/
+#share_container {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+#share_container .social {
+    float: left;
+    margin-left: 5px;
+}
+#share_container .social:first-of-type {
+    margin-left: 0;
+}
+#share_container .paypal {
+    top: 39px;
+    position: relative;
+}
