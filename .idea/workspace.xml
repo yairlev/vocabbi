@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fa2e3e61-13de-440f-b076-91d11af59ab7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js" afterPath="$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/settings.js" afterPath="$PROJECT_DIR$/src/models/settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/settings_proxy.js" afterPath="$PROJECT_DIR$/src/resources/settings_proxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/popup.html" afterPath="$PROJECT_DIR$/src/popup.html" />
     </list>
     <ignored path="vocabbi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +46,7 @@
       <file leaf-file-name="popup.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="28" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
+            <state line="27" column="11" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.85984254">
               <folding />
             </state>
           </provider>
@@ -59,7 +57,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="137" column="40" selection-start="4504" selection-end="4504" vertical-scroll-proportion="-5.774194">
               <folding>
-                <marker date="1337261242000" expanded="true" signature="3217:3318" placeholder="{...}" />
+                <marker date="1337262330000" expanded="true" signature="3217:3318" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -139,12 +137,12 @@
         <option value="$PROJECT_DIR$/tools/closure_compiler.bat" />
         <option value="$PROJECT_DIR$/tools/compile.command" />
         <option value="$PROJECT_DIR$/src/manifest.json" />
-        <option value="$PROJECT_DIR$/src/popup.html" />
         <option value="$PROJECT_DIR$/src/preferences.html" />
         <option value="$PROJECT_DIR$/src/controllers/preferences_controller.js" />
         <option value="$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js" />
         <option value="$PROJECT_DIR$/src/resources/settings_proxy.js" />
         <option value="$PROJECT_DIR$/src/models/settings.js" />
+        <option value="$PROJECT_DIR$/src/popup.html" />
       </list>
     </option>
   </component>
@@ -403,7 +401,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="137" column="40" selection-start="4504" selection-end="4504" vertical-scroll-proportion="-5.774194">
           <folding>
-            <marker date="1337261242000" expanded="true" signature="3217:3318" placeholder="{...}" />
+            <marker date="1337262330000" expanded="true" signature="3217:3318" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -461,7 +459,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/popup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
+        <state line="27" column="11" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.85984254">
           <folding />
         </state>
       </provider>
