@@ -81,7 +81,7 @@ $.Controller.extend('VocabbiDocument',
             wrapper.select();
 
         var showTooltip = function () {
-            me.tooltipController.showTooltip(rect);
+            me.tooltipController.showTooltip(rect, me.settingsProxy.tooltip_color);
 
             var context;
 

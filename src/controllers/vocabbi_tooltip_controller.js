@@ -33,18 +33,21 @@ $.Controller.extend('VocabbiTooltip',
         Speech.play(this.sourceText, this.sourceLanguage);
     },
 
-    showTooltip: function (rect) {
+    showTooltip: function (rect, backgroundColor) {
 
         this.rect = rect;
 
         tootipTopHover = 10;
 
+        $('[class*=vocabbi-tooltip-]', this.element).css('background-color', backgroundColor);
+        var arrowColor = backgroundColor + " transparent";
+
         if (!this.arrow) {
             //Create the new arrow
-            var arrowColor = $('.vocabbi-tooltip-a', this.element).css('background-color') + " transparent";
-            this.arrow = $('<div\>').addClass('vocabbi_element vocabbi-tooltip-down')
-            this.arrow.css('border-color', arrowColor);
+            this.arrow = $('<div\>').addClass('vocabbi_element vocabbi-tooltip-down');
         }
+
+        this.arrow.css('border-color', arrowColor);
 
         this.element.parent().append(this.arrow);
 

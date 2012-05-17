@@ -143,13 +143,19 @@
             });
         }
 
-        $.each($("#source_lang option"), function (index, elem) {
+        if (language_pairs && language_pairs.length > 0) {
+            $.each($("#source_lang option"), function (index, elem) {
+                if ($(elem).css('display') != 'none') {
+                    $('#source_lang').val($(elem).val());
+                    return false;
+                }
+            });
 
-            if ($(elem).css('display') != 'none') {
-                $('#source_lang').val($(elem).val());
-                return false;
-            }
-        });
+        }
+        else {
+            $('#source_lang').val('en');
+            $('#target_lang').val('es');
+        }
 
         //$('#source_lang').val($("#source_lang option:visible:first").val());
 
