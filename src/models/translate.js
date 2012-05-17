@@ -13,7 +13,7 @@
             target_language: target_language
         },
         function (result) {
-            callback.call(this, result.value);
+            callback.call(this, result);
         });
     },
 
@@ -28,7 +28,7 @@
     },
 
     generateRequest: function (text, sourceLanguage, targetLanguage) {
-        return "http://translate.google.com/?sl=" + sourceLanguage + "&tl=" + targetLanguage + "&text=" + text;
+        return 'https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=' + sourceLanguage + '&tl=' + targetLanguage + '&q=' + text;
     }
 },
 {

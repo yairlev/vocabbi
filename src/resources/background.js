@@ -20,27 +20,24 @@ chrome.extension.onRequest.addListener(
                 data: 'client=dict-chrome-ex&sl=' + request.source_language + '&tl=' + request.target_language + '&q=' + request.text,
                 type: 'GET',
                 complete: function(jqXHR, textStatus) {
+                    var result = {};
+
                     if (jqXHR.responseText) {
-                        console.log(jqXHR.responseText);
                         var json = $.parseJSON(jqXHR.responseText);
 
-                        console.log(json);
+                        //console.log(jqXHR.responseText);
+                        //console.log(json);
 
-                        var source = json.src;
-                        var translation = json.sentences[0].trans;
-                        console.log(translation);
-                        sendResponse({ value: translation });
+                        result.success = true;
+                        result.translation = json.sentences[0].trans;
+                        result.source_language = json.src;
+                    } else {
+                        result.success = false;
                     }
+
+                    sendResponse(result);
                 }
             });
-            /*
-            google.language.translate(request.text, request.source_language, request.target_language,
-                function (result) {
-                    console.log(result);
-                    sendResponse({ value: result });
-                }
-            );
-            */
         }
         else if (request.op == "detectLanguage") {
             google.language.detect(request.text,
