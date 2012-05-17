@@ -92,7 +92,7 @@ $.Controller.extend('VocabbiDocument',
 
             console.log('context:' + context);
 
-            var target = 'en'; //todo: get default language
+            var target = me.settingsProxy.default_language;
 
             Translate.getTranslation(text, 'auto', target,
                 function (result) {

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2e3e61-13de-440f-b076-91d11af59ab7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/preferences_controller.js" afterPath="$PROJECT_DIR$/src/controllers/preferences_controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js" afterPath="$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/settings.js" afterPath="$PROJECT_DIR$/src/models/settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/popup.html" afterPath="$PROJECT_DIR$/src/popup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/preferences.html" afterPath="$PROJECT_DIR$/src/preferences.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/settings_proxy.js" afterPath="$PROJECT_DIR$/src/resources/settings_proxy.js" />
     </list>
     <ignored path="vocabbi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,16 +39,16 @@
       <file leaf-file-name="background.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/background.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="35" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+            <state line="53" column="9" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-7.1923075">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popup.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="popup.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="40" selection-start="1380" selection-end="1408" vertical-scroll-proportion="-5.774194">
+            <state line="8" column="28" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -57,8 +57,10 @@
       <file leaf-file-name="preferences.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/preferences.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="40" selection-start="4554" selection-end="4554" vertical-scroll-proportion="-5.774194">
-              <folding />
+            <state line="137" column="40" selection-start="4504" selection-end="4504" vertical-scroll-proportion="-5.774194">
+              <folding>
+                <marker date="1337261242000" expanded="true" signature="3217:3318" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vocabbi_document_controller.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="vocabbi_document_controller.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="235" selection-end="235" vertical-scroll-proportion="-1.3">
+            <state line="94" column="22" selection-start="3049" selection-end="3055" vertical-scroll-proportion="-8.192307">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -83,19 +85,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/settings.js">
+      <file leaf-file-name="settings_proxy.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/settings_proxy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="90" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0">
+            <state line="11" column="36" selection-start="169" selection-end="180" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vocabbi.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vocabbi.js">
+      <file leaf-file-name="settings.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/settings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="311" column="48" selection-start="164757" selection-end="164757" vertical-scroll-proportion="0.0">
+            <state line="36" column="67" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,8 +141,10 @@
         <option value="$PROJECT_DIR$/src/manifest.json" />
         <option value="$PROJECT_DIR$/src/popup.html" />
         <option value="$PROJECT_DIR$/src/preferences.html" />
-        <option value="$PROJECT_DIR$/src/models/settings.js" />
         <option value="$PROJECT_DIR$/src/controllers/preferences_controller.js" />
+        <option value="$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js" />
+        <option value="$PROJECT_DIR$/src/resources/settings_proxy.js" />
+        <option value="$PROJECT_DIR$/src/models/settings.js" />
       </list>
     </option>
   </component>
@@ -395,24 +399,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/background.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="35" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/popup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="40" selection-start="1380" selection-end="1408" vertical-scroll-proportion="-5.774194">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/preferences.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="40" selection-start="4554" selection-end="4554" vertical-scroll-proportion="-5.774194">
-          <folding />
+        <state line="137" column="40" selection-start="4504" selection-end="4504" vertical-scroll-proportion="-5.774194">
+          <folding>
+            <marker date="1337261242000" expanded="true" signature="3217:3318" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -425,14 +417,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vocabbi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="311" column="48" selection-start="164757" selection-end="164757" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="90" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0">
+        <state line="302" column="177" selection-start="158569" selection-end="158569" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
@@ -444,12 +429,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/settings_proxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="36" selection-start="169" selection-end="180" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="9" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="235" selection-end="235" vertical-scroll-proportion="-1.3">
+        <state line="94" column="22" selection-start="3049" selection-end="3055" vertical-scroll-proportion="-8.192307">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="67" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -33,12 +33,12 @@
     },
 
     get_language_pairs: function () {
-        if (localStorage["language_pairs"]) {
-            return JSON.parse(localStorage["language_pairs"]);
-        }
-        else {
-            return Settings.defaultLanguagePair;
-        }
+        //if (localStorage["language_pairs"]) {
+            return JSON.parse(localStorage["language_pairs"]) || [];
+        //}
+        //else {
+            //return Settings.defaultLanguagePair;
+        //}
 
     },
 
@@ -63,6 +63,7 @@
     get_settings: function () {
         return {
             'key_code': this.get_keyCode(),
+            'default_language' : this.get_default_language(),
             'language_pairs': this.get_language_pairs(),
             'tooltip_color': this.get_tooltipColor(),
             'font_size': this.get_fontSize(),
