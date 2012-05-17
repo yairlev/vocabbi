@@ -67,17 +67,6 @@
             var target_lang = $('#target_lang').val();
             me._add_language_pairs([{ 'src': source_lang, 'target': target_lang}]);
         });
-
-        //    window.setTimeout(function () { me.setTooltipContent(Settings.get_language()); }, 100);
-
-
-        //    $('.languages').change(function () {
-        //        me.setTooltipContent();
-        //    });
-
-        //    $('.font_size').change(function () {
-        //        me.setTooltipContent();
-        //    });
     },
 
     setTooltipContent: function () {
@@ -168,29 +157,6 @@
 
         Settings.set_language_pairs(this.language_pairs);
     }
-
-    /*".save click": function (el, ev) {
-
-        Settings.set_default_language(this.default_language);
-
-        Settings.set_language_pairs(this.language_pairs);
-
-        Settings.set_tooltipColor(this.tooltipColor);
-
-        var keyCode = $('.key_codes option:selected').val();
-        Settings.set_keyCode(keyCode);
-
-        var fontSize = $('.font_size option:selected').val();
-        Settings.set_fontSize(fontSize);
-
-        $('.save_message').css('left', ($(document).width() / 2 - $('.save_message').outerWidth() / 2) + 'px');
-        $('.save_message').show(0, function () { window.setTimeout("$('.save_message').hide()", 5000); });
-
-    },*/
-
-    /*".cancel click": function () {
-        chrome.tabs.getSelected(null, function (tab) { chrome.tabs.remove(tab.id); });
-    }*/
 });
 
 
