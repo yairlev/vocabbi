@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2e3e61-13de-440f-b076-91d11af59ab7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/vocabbi_tooltip_controller.js" afterPath="$PROJECT_DIR$/src/controllers/vocabbi_tooltip_controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/background.html" afterPath="$PROJECT_DIR$/src/background.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/preferences_controller.js" afterPath="$PROJECT_DIR$/src/controllers/preferences_controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/popup.html" afterPath="$PROJECT_DIR$/src/popup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/preferences.html" afterPath="$PROJECT_DIR$/src/preferences.html" />
     </list>
     <ignored path="vocabbi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="background.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/background.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="9" selection-start="1770" selection-end="1770" vertical-scroll-proportion="-7.1923075">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="popup.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="48" selection-start="794" selection-end="794" vertical-scroll-proportion="-3.8421052">
+            <state line="7" column="53" selection-start="380" selection-end="380" vertical-scroll-proportion="-3.1929824">
               <folding />
             </state>
           </provider>
@@ -46,7 +39,34 @@
       <file leaf-file-name="preferences.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/preferences.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="389" column="21" selection-start="20018" selection-end="20018" vertical-scroll-proportion="-2.1929824">
+            <state line="10" column="51" selection-start="583" selection-end="583" vertical-scroll-proportion="-8.387096">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sharethelove.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sharethelove.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="48" selection-start="429" selection-end="429" vertical-scroll-proportion="-2.516129">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="background.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/background.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="2" selection-start="176" selection-end="176" vertical-scroll-proportion="0.15294118">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paypal.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/paypal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -55,7 +75,7 @@
       <file leaf-file-name="preferences_controller.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/preferences_controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="0" selection-start="5415" selection-end="5415" vertical-scroll-proportion="21.0">
+            <state line="55" column="35" selection-start="1937" selection-end="1937" vertical-scroll-proportion="-55.0">
               <folding />
             </state>
           </provider>
@@ -72,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vocabbi_tooltip_controller.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="vocabbi_tooltip_controller.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/vocabbi_tooltip_controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="190" column="92" selection-start="5437" selection-end="5437" vertical-scroll-proportion="0.6578125">
+            <state line="190" column="92" selection-start="5437" selection-end="5437" vertical-scroll-proportion="-16.192308">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -101,24 +121,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings_proxy.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/settings_proxy.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="64" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/settings.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -139,12 +141,13 @@
         <option value="$PROJECT_DIR$/src/manifest.json" />
         <option value="$PROJECT_DIR$/src/resources/settings_proxy.js" />
         <option value="$PROJECT_DIR$/src/models/settings.js" />
-        <option value="$PROJECT_DIR$/src/popup.html" />
-        <option value="$PROJECT_DIR$/src/preferences.html" />
-        <option value="$PROJECT_DIR$/src/controllers/preferences_controller.js" />
         <option value="$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js" />
         <option value="$PROJECT_DIR$/src/style/vocabbi.css" />
         <option value="$PROJECT_DIR$/src/controllers/vocabbi_tooltip_controller.js" />
+        <option value="$PROJECT_DIR$/src/controllers/preferences_controller.js" />
+        <option value="$PROJECT_DIR$/src/background.html" />
+        <option value="$PROJECT_DIR$/src/popup.html" />
+        <option value="$PROJECT_DIR$/src/preferences.html" />
       </list>
     </option>
   </component>
@@ -320,9 +323,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19911991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14961496" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18977202" sideWeight="0.8008801" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18977202" sideWeight="0.850385" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -389,27 +392,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/resources/jquery.class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="53" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/closure_compiler.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="94" selection-start="5168" selection-end="5194" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/compile.command">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="500" selection-start="589" selection-end="589" vertical-scroll-proportion="-4.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/language_codes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -431,30 +413,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/popup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="48" selection-start="794" selection-end="794" vertical-scroll-proportion="-3.8421052">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/preferences.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="389" column="21" selection-start="20018" selection-end="20018" vertical-scroll-proportion="-2.1929824">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/settings_proxy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="64" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/preferences_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="0" selection-start="5415" selection-end="5415" vertical-scroll-proportion="21.0">
           <folding />
         </state>
       </provider>
@@ -491,10 +452,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/vocabbi_tooltip_controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="92" selection-start="5437" selection-end="5437" vertical-scroll-proportion="0.6578125">
+        <state line="190" column="92" selection-start="5437" selection-end="5437" vertical-scroll-proportion="-16.192308">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webide.jar!/standardSchemas/xhtml1-transitional.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="971" column="10" selection-start="26315" selection-end="26315" vertical-scroll-proportion="14.338398">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/preferences_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="35" selection-start="1937" selection-end="1937" vertical-scroll-proportion="-55.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="53" selection-start="380" selection-end="380" vertical-scroll-proportion="-3.1929824">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/preferences.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="51" selection-start="583" selection-end="583" vertical-scroll-proportion="-8.387096">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sharethelove.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="48" selection-start="429" selection-end="429" vertical-scroll-proportion="-2.516129">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/paypal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/background.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="176" selection-end="176" vertical-scroll-proportion="0.15294118">
+          <folding />
         </state>
       </provider>
     </entry>

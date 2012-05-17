@@ -55,12 +55,12 @@
         var params = { text: null, background_color: Settings.get_tooltipColor(), root_path: rootPath }
         this.tooltip = $($.View(viewUrl, params)).hide();
         $(document.body).append(this.tooltip);
-        this.tooltipController = this.tooltip.vocabbi_tooltip().controller();
+        /*this.tooltipController = this.tooltip.vocabbi_tooltip().controller();
         this.tooltipController.addEventListener('textSelect', function (text, language) {
             var requestUrl = createRequestUrl(text, language);
             //open the google dictionary in a new tab.
             window.open(requestUrl);
-        });
+        });*/
 
         $('#add_language_pair').click(function () {
             var source_lang = $('#source_lang').val();
