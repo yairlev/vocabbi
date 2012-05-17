@@ -2,6 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Preferences | Vocabbi</title>
+
+    <link href="style/options.css" rel="stylesheet" type="text/css" />
+
     <script src="resources/jquery-1.7.1.min.js" type="text/javascript"></script>
     <script src="resources/jquery.lang.js" type="text/javascript"></script>
     <script src="resources/jquery.class.js" type="text/javascript"></script>
@@ -26,105 +29,7 @@
     <script src="resources/speech.js" type="text/javascript"></script>
     <script src="resources/json2.js" type="text/javascript"></script>
     <link href="style/vocabbi.css" rel="stylesheet" type="text/css" />
-    <style>
-        body
-        {
-            font-family: Comic Sans MS, Arial;
-            font-size: 20px;
-            padding:40px;
-        }
-        .header
-        {
-            color: #000000;
-            font-size: 26px;
-            font-family: Comic Sans MS, Arial;
-            margin-top: 35px;
-        }
-        .select
-        {
-            padding: 3px;
-            font-size: 16px;
-            margin-top: 10px;
-        }
-        .left
-        {
-            width: 35%;
-            float: left;
-        }
-        .right
-        {
-            float: left;
-        }
-        .color_picker
-        {
-            background-color: #E5E6E7;
-            border: solid 1px #000000;
-            margin-top:3px;
-        }
-        .color_cell
-        {
-            width: 20px;
-            height: 20px;
-            border: solid 1px #000000;
-            border-right: none;
-            border-top: none;
-        }
-        .top_cell
-        {
-            border-top: solid 1px #000000;
-        }
-        .right_cell
-        {
-            border-right: solid 1px #000000;
-        }
-        .color_cell_selected
-        {
-            border: solid 1px #ffffff;
-            width: 19px;
-            height: 19px;
-        }
-        .test_message
-        {
-            font-size: 30px;
-            font-family: Arial;
-        }
-        .button 
-        {
-        	font-size:20px;
-        	
-        }
-        .sample_text
-        {
-        	font-size:25px;
-        }
-        .sample_text_container
-        {
-        	border-radius: 5px;
-        	border:solid 1px #000000;
-        	width:400px;
-        	height:70px;
-        	text-align:center;
-        	padding-top:70px;
-        }
-        .save_message
-        {
-        	position: absolute; 
-        	top:0px; 
-        	background-color:#F8E6CA; 
-        	font-family:Arial; 
-        	padding:5px 15px; 
-        	border-radius:5px;
-        	display:none;
-        }
-        .language_pairs
-        {
-            margin-top:10px;    
-        }
-        .remove
-        {
-            margin-left:15px;
-        }
-    </style>
+
     <script>
         $(document).ready(function () {
             $(document).preferences();
@@ -132,7 +37,8 @@
         });
     </script>
 </head>
-<body>
+
+<body id="preferences_container">
     <iframe frameborder="0" scrolling="no"></iframe>
     <div class="left">
         <div class="header" style="margin:0px;">
@@ -514,4 +420,5 @@
         Preferences saved successfully.
     </span>-->
 </body>
+
 </html>
