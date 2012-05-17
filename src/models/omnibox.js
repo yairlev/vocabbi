@@ -21,7 +21,7 @@
                     targetLanguage = Settings.get_language();
                 }
             }
-            var url = "http://www.google.com/dictionary?langpair=" + sourceLanguage + "|" + targetLanguage + "&q= " + text;
+            var url = 'https://www.google.com/search?defl=' + sourceLanguage + '&hl=' + targetLanguage + '&q=' + text + '&tbo=1&tbs=dfn:1';
             chrome.tabs.update(tabId, { url: url });
         }
 
@@ -35,7 +35,6 @@
             gotoGoogleDictionary(Omnibox.selectedTabId, Omnibox.textLanguage, text);
 
         }
-
     },
 
     onInputChanged: function (text, suggest) {

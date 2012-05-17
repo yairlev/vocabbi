@@ -24,10 +24,6 @@ chrome.extension.onRequest.addListener(
 
                     if (jqXHR.responseText) {
                         var json = $.parseJSON(jqXHR.responseText);
-
-                        //console.log(jqXHR.responseText);
-                        //console.log(json);
-
                         result.success = true;
                         result.translation = json.sentences[0].trans;
                         result.source_language = json.src;
@@ -42,14 +38,14 @@ chrome.extension.onRequest.addListener(
         else if (request.op == "detectLanguage") {
             google.language.detect(request.text,
                 function (result) {
-                    console.log(result);
+                    //console.log(result);
                     sendResponse({ value: result });
                 }
             );
         }
         else if (request.op == "getView") {
             var view = $.View(request.url, request.params);
-            console.log("View in background - " + view);
+            //console.log("view in background: " + view);
             sendResponse(view);
         }
         else if (request.op == "getSettings") {
