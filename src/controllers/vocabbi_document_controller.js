@@ -9,7 +9,7 @@
 $.Controller.extend('VocabbiDocument',
 /* @Static */
 {
-onDocument: true
+    onDocument: true
 },
 /* @Prototype */
 {
@@ -95,9 +95,11 @@ onDocument: true
             var source = 'auto';
             var target = 'es';
             Translate.getTranslation(text, source, target,
-                function (translation) {
-                    me.tooltipController.setContent(text, source, translation, target, me.settingsProxy.font_size);
-                    me.tooltipController.setPosition();
+                function (result) {
+                    if (result.success) {
+                        me.tooltipController.setContent(text, source, result.translation, target, me.settingsProxy.font_size);
+                        me.tooltipController.setPosition();
+                    }
                 }
             );
             /*
