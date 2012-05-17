@@ -14,7 +14,8 @@
             me.tooltipColor = color;
             me.colorPicker.hide();
             $('.current_color_container').css('background-color', color);
-            me.tooltipController.setBackgroundColor(color);
+            //me.tooltipController.setBackgroundColor(color);
+            Settings.set_tooltipColor(me.tooltipColor);
         });
 
         //get the language pairs
@@ -25,11 +26,22 @@
         $('#default_lang').val(this.default_language);
 
         $('#default_lang').change(function() {
-            me.default_language = $(this).val();
+            Settings.set_default_language($(this).val());
+            //me.default_language = $(this).val();
         });
 
         $('.key_codes').val(Settings.get_keyCode());
+
+        $('.key_codes').change(function() {
+            Settings.set_keyCode($(this).val());
+        });
+
         $('.font_size').val(Settings.get_fontSize());
+
+        $('.font_size').change(function() {
+            Settings.set_fontSize($(this).val());
+        });
+
         $('.current_color_container').css('background-color', Settings.get_tooltipColor());
         $('.color_container').click(function () { event.stopImmediatePropagation(); me.colorPicker.toggle(); });
 
@@ -127,6 +139,7 @@
                     }
                 });
 
+                Settings.set_language_pairs(me.language_pairs);
             });
         }
 
@@ -146,9 +159,11 @@
         else {
             $.merge(this.language_pairs, language_pairs);
         }
-    },
 
-    ".save click": function (el, ev) {
+        Settings.set_language_pairs(this.language_pairs);
+    }
+
+    /*".save click": function (el, ev) {
 
         Settings.set_default_language(this.default_language);
 
@@ -165,11 +180,11 @@
         $('.save_message').css('left', ($(document).width() / 2 - $('.save_message').outerWidth() / 2) + 'px');
         $('.save_message').show(0, function () { window.setTimeout("$('.save_message').hide()", 5000); });
 
-    },
+    },*/
 
-    ".cancel click": function () {
+    /*".cancel click": function () {
         chrome.tabs.getSelected(null, function (tab) { chrome.tabs.remove(tab.id); });
-    }
+    }*/
 });
 
 
