@@ -35,14 +35,6 @@ chrome.extension.onRequest.addListener(
                 }
             });
         }
-        else if (request.op == "detectLanguage") {
-            google.language.detect(request.text,
-                function (result) {
-                    //console.log(result);
-                    sendResponse({ value: result });
-                }
-            );
-        }
         else if (request.op == "getView") {
             var view = $.View(request.url, request.params);
             //console.log("view in background: " + view);

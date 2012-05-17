@@ -17,16 +17,6 @@
         });
     },
 
-    detectLanguage: function (text, callback) {
-        chrome.extension.sendRequest({
-            op: "detectLanguage",
-            text: text
-        },
-        function (result) {
-            callback.call(this, result.value);
-        });
-    },
-
     generateRequest: function (text, sourceLanguage, targetLanguage) {
         return 'https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=' + sourceLanguage + '&tl=' + targetLanguage + '&q=' + text;
     }
