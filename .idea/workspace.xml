@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2e3e61-13de-440f-b076-91d11af59ab7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/preferences_controller.js" afterPath="$PROJECT_DIR$/src/controllers/preferences_controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/popup.html" afterPath="$PROJECT_DIR$/src/popup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/preferences.html" afterPath="$PROJECT_DIR$/src/preferences.html" />
     </list>
     <ignored path="vocabbi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +30,7 @@
       <file leaf-file-name="manifest.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="31" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0">
+            <state line="20" column="5" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -36,16 +39,16 @@
       <file leaf-file-name="background.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/background.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="9" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-7.1923075">
+            <state line="49" column="9" selection-start="1770" selection-end="1770" vertical-scroll-proportion="-7.1923075">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popup.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="popup.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="12" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.5730706">
+            <state line="24" column="48" selection-start="1006" selection-end="1006" vertical-scroll-proportion="-3.8421052">
               <folding />
             </state>
           </provider>
@@ -54,16 +57,16 @@
       <file leaf-file-name="preferences.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/preferences.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="510" column="14" selection-start="23568" selection-end="23568" vertical-scroll-proportion="-64.96491">
+            <state line="483" column="21" selection-start="21988" selection-end="21988" vertical-scroll-proportion="-2.1929824">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preferences_controller.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="preferences_controller.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllers/preferences_controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="53" selection-start="5731" selection-end="5731" vertical-scroll-proportion="-9.615385">
+            <state line="139" column="19" selection-start="5323" selection-end="5323" vertical-scroll-proportion="0.040625">
               <folding />
             </state>
           </provider>
@@ -125,17 +128,17 @@
         <option value="$PROJECT_DIR$/tools/closure_compiler.bat" />
         <option value="$PROJECT_DIR$/tools/compile.command" />
         <option value="$PROJECT_DIR$/src/manifest.json" />
-        <option value="$PROJECT_DIR$/src/controllers/preferences_controller.js" />
         <option value="$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js" />
         <option value="$PROJECT_DIR$/src/resources/settings_proxy.js" />
-        <option value="$PROJECT_DIR$/src/preferences.html" />
         <option value="$PROJECT_DIR$/src/models/settings.js" />
         <option value="$PROJECT_DIR$/src/popup.html" />
+        <option value="$PROJECT_DIR$/src/preferences.html" />
+        <option value="$PROJECT_DIR$/src/controllers/preferences_controller.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="18" />
+    <option name="x" value="12" />
     <option name="y" value="22" />
     <option name="width" value="1646" />
     <option name="height" value="1028" />
@@ -283,7 +286,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="22" width="1646" height="1028" extended-state="0" />
+    <frame x="12" y="22" width="1646" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -380,7 +383,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0">
+        <state line="20" column="5" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -401,14 +404,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/background.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="9" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/preferences.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="510" column="14" selection-start="23568" selection-end="23568" vertical-scroll-proportion="-64.96491">
+        <state line="49" column="9" selection-start="1770" selection-end="1770" vertical-scroll-proportion="-7.1923075">
           <folding />
         </state>
       </provider>
@@ -429,13 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/preferences_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="53" selection-start="5731" selection-end="5731" vertical-scroll-proportion="-9.615385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/settings.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="0" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
@@ -445,7 +434,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/popup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="12" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.5730706">
+        <state line="24" column="48" selection-start="1006" selection-end="1006" vertical-scroll-proportion="-3.8421052">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/preferences.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="483" column="21" selection-start="21988" selection-end="21988" vertical-scroll-proportion="-2.1929824">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/preferences_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="19" selection-start="5323" selection-end="5323" vertical-scroll-proportion="0.040625">
           <folding />
         </state>
       </provider>
