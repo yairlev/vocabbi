@@ -92,44 +92,35 @@ $.Controller.extend('VocabbiDocument',
 
             console.log('context:' + context);
 
-            var source = 'auto';
-            var target = 'es';
-            Translate.getTranslation(text, source, target,
+            var target = 'en'; //todo: get default language
+
+            Translate.getTranslation(text, 'auto', target,
                 function (result) {
                     if (result.success) {
-                        me.tooltipController.setContent(text, source, result.translation, target, me.settingsProxy.font_size);
-                        me.tooltipController.setPosition();
-                    }
-                }
-            );
-            /*
-            Translate.detectLanguage(context, function (languageRes) {
-                var res = $.grep(me.settingsProxy.language_pairs, function (elem, index) {
-                    return elem.src == languageRes.language;
-                });
+                        var source = result.source_language;
 
-                var target = 'en';
+                        var res = $.grep(me.settingsProxy.language_pairs, function (elem, index) {
+                            return elem.src == source;
+                        });
 
-                if (res) {
-                    target = res[0].target;
-                }
+                        if (res.length > 0) {
+                            target = res[0].target;
 
-                Translate.getTranslation(text, languageRes.language, target,
-                    function (translationRes) {
-                        if (translationRes.status.code == Translate.resultStatus.OK) {
-                            // var tag = new Tag(text, context, languageRes.language, location.url, new Date());
-
-                            //if (me.user.tags.conatin(tag))
-                            //var selected = true;
-
-                            //set the content in the tooltip.
-                            me.tooltipController.setContent(text, languageRes.language, translationRes.translation, target, me.settingsProxy.font_size);
+                            Translate.getTranslation(text, source, target,
+                                function (result) {
+                                    if (result.success) {
+                                        me.tooltipController.setContent(text, source, result.translation, target, me.settingsProxy.font_size);
+                                        me.tooltipController.setPosition();
+                                    }
+                                }
+                            );
+                        } else {
+                            me.tooltipController.setContent(text, source, result.translation, target, me.settingsProxy.font_size);
                             me.tooltipController.setPosition();
                         }
                     }
-                );
-            });
-            */
+                }
+            );
         }
 
         if (!this.tooltipController) {
