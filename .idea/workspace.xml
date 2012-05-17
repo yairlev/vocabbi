@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2e3e61-13de-440f-b076-91d11af59ab7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/preferences_controller.js" afterPath="$PROJECT_DIR$/src/controllers/preferences_controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js" afterPath="$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/vocabbi_tooltip_controller.js" afterPath="$PROJECT_DIR$/src/controllers/vocabbi_tooltip_controller.js" />
     </list>
     <ignored path="vocabbi.iws" />
@@ -26,15 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="manifest.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/manifest.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="5" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="background.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/background.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,7 +37,7 @@
       <file leaf-file-name="popup.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="48" selection-start="1006" selection-end="1006" vertical-scroll-proportion="-3.8421052">
+            <state line="15" column="48" selection-start="794" selection-end="794" vertical-scroll-proportion="-3.8421052">
               <folding />
             </state>
           </provider>
@@ -56,7 +46,7 @@
       <file leaf-file-name="preferences.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/preferences.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="483" column="21" selection-start="21988" selection-end="21988" vertical-scroll-proportion="-2.1929824">
+            <state line="389" column="21" selection-start="20018" selection-end="20018" vertical-scroll-proportion="-2.1929824">
               <folding />
             </state>
           </provider>
@@ -85,10 +75,28 @@
       <file leaf-file-name="vocabbi_tooltip_controller.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controllers/vocabbi_tooltip_controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="18" selection-start="894" selection-end="894" vertical-scroll-proportion="0.46846846">
+            <state line="190" column="92" selection-start="5437" selection-end="5437" vertical-scroll-proportion="0.6578125">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vocabbi.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style/vocabbi.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="1" selection-start="2039" selection-end="2039" vertical-scroll-proportion="-9.192307">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="22" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,15 +114,6 @@
         <entry file="file://$PROJECT_DIR$/src/models/settings.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="41" column="0" selection-start="1161" selection-end="1161" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="language_codes.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/language_codes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/preferences.html" />
         <option value="$PROJECT_DIR$/src/controllers/preferences_controller.js" />
         <option value="$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js" />
+        <option value="$PROJECT_DIR$/src/style/vocabbi.css" />
         <option value="$PROJECT_DIR$/src/controllers/vocabbi_tooltip_controller.js" />
       </list>
     </option>
@@ -218,6 +218,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vocabbi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vocabbi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,13 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/language_codes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -422,14 +433,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/popup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="48" selection-start="1006" selection-end="1006" vertical-scroll-proportion="-3.8421052">
+        <state line="15" column="48" selection-start="794" selection-end="794" vertical-scroll-proportion="-3.8421052">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/preferences.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="483" column="21" selection-start="21988" selection-end="21988" vertical-scroll-proportion="-2.1929824">
+        <state line="389" column="21" selection-start="20018" selection-end="20018" vertical-scroll-proportion="-2.1929824">
           <folding />
         </state>
       </provider>
@@ -464,9 +475,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="22" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/vocabbi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="1" selection-start="2039" selection-end="2039" vertical-scroll-proportion="-9.192307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/vocabbi_tooltip_controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="18" selection-start="894" selection-end="894" vertical-scroll-proportion="0.46846846">
+        <state line="190" column="92" selection-start="5437" selection-end="5437" vertical-scroll-proportion="0.6578125">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

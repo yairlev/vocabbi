@@ -183,12 +183,12 @@ $.Controller.extend('VocabbiTooltip',
 
         if (this.element.position().top < rect.top + $(document).scrollTop()) {
             arrow.attr('class', 'vocabbi_element vocabbi-tooltip-down');
-            arrowTop = rect.top + $(document).scrollTop() - arrow.outerHeight() - tootipTopHover;
+            arrowTop = rect.top + $(document).scrollTop() - arrow.outerHeight() - tootipTopHover - 1;
 
         }
         else {
             arrow.attr('class', 'vocabbi_element vocabbi-tooltip-up');
-            arrowTop = rect.top + $(document).scrollTop() + rect.height + tootipTopHover;
+            arrowTop = rect.top + $(document).scrollTop() + rect.height + tootipTopHover + 1;
         }
 
         arrow.css('left', arrowLeft + 'px');
