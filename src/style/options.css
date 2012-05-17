@@ -3,14 +3,13 @@
 /*******************************************************/
 #popup_container {
     width: 280px;
-    height: 130px;
+    height: 140px;
     font-family: Arial, Sans-Serif;
     font-size: 14px;
 }
-#popup_container .save_message
-{
-    background-color: #F8E6CA;
-    font-family: Arial;
+#popup_container .save_message {
+    background-color: #F9EDBE;
+    border: solid 1px #F0C36D;
     font-size: 12px;
     padding: 5px 5px;
     margin-top: 2px;
@@ -34,4 +33,24 @@
     height: 65px;
     padding: 0px;
     margin: 0px;
+}
+
+/*******************************************************/
+/*                       SHARE                         */
+/*******************************************************/
+#share_container {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+#share_container .social {
+    float: left;
+    margin-left: 5px;
+}
+#share_container .social:first-of-type {
+    margin-left: 0;
+}
+#share_container .paypal {
+    top: 39px;
+    position: relative;
 }
