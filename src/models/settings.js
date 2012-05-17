@@ -33,12 +33,12 @@
     },
 
     get_language_pairs: function () {
-        //if (localStorage["language_pairs"]) {
-            return JSON.parse(localStorage["language_pairs"]) || [];
-        //}
-        //else {
-            //return Settings.defaultLanguagePair;
-        //}
+        if (localStorage["language_pairs"]) {
+            return JSON.parse(localStorage["language_pairs"]);
+        }
+        else {
+            return [];
+        }
 
     },
 
