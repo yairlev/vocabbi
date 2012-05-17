@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2e3e61-13de-440f-b076-91d11af59ab7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vocabbi.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/background.html" afterPath="$PROJECT_DIR$/src/background.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js" afterPath="$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/vocabbi_tooltip_controller.js" afterPath="$PROJECT_DIR$/src/controllers/vocabbi_tooltip_controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/translate.js" afterPath="$PROJECT_DIR$/src/models/translate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controllers/preferences_controller.js" afterPath="$PROJECT_DIR$/src/controllers/preferences_controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/settings.js" afterPath="$PROJECT_DIR$/src/models/settings.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/popup.html" afterPath="$PROJECT_DIR$/src/popup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/preferences.html" afterPath="$PROJECT_DIR$/src/preferences.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/background.js" afterPath="$PROJECT_DIR$/src/resources/background.js" />
     </list>
     <ignored path="vocabbi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,10 +36,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="background.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="background.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/background.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.38895282">
+            <state line="7" column="35" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popup.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/popup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="40" selection-start="1380" selection-end="1408" vertical-scroll-proportion="-5.774194">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preferences.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/preferences.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="138" column="40" selection-start="4554" selection-end="4554" vertical-scroll-proportion="-5.774194">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preferences_controller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/preferences_controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="14" selection-start="843" selection-end="843" vertical-scroll-proportion="-20.192308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vocabbi_document_controller.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="1" selection-start="235" selection-end="235" vertical-scroll-proportion="-1.3">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/settings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="90" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vocabbi.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vocabbi.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="311" column="48" selection-start="164757" selection-end="164757" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="language_codes.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/language_codes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -60,24 +114,6 @@
         <entry file="file://$PROJECT_DIR$/tools/compile.command">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="500" selection-start="589" selection-end="589" vertical-scroll-proportion="-4.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="closure_compiler.bat" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/closure_compiler.bat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="94" selection-start="5168" selection-end="5194" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.class.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/jquery.class.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="53" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,6 +137,10 @@
         <option value="$PROJECT_DIR$/tools/closure_compiler.bat" />
         <option value="$PROJECT_DIR$/tools/compile.command" />
         <option value="$PROJECT_DIR$/src/manifest.json" />
+        <option value="$PROJECT_DIR$/src/popup.html" />
+        <option value="$PROJECT_DIR$/src/preferences.html" />
+        <option value="$PROJECT_DIR$/src/models/settings.js" />
+        <option value="$PROJECT_DIR$/src/controllers/preferences_controller.js" />
       </list>
     </option>
   </component>
@@ -195,6 +235,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vocabbi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vocabbi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vocabbi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vocabbi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -222,8 +298,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19911991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1620456" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18977202" sideWeight="0.8008801" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -232,7 +309,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -321,8 +397,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/background.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.38895282">
+        <state line="7" column="35" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="40" selection-start="1380" selection-end="1408" vertical-scroll-proportion="-5.774194">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/preferences.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="40" selection-start="4554" selection-end="4554" vertical-scroll-proportion="-5.774194">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/language_codes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vocabbi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="311" column="48" selection-start="164757" selection-end="164757" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="90" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/preferences_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="14" selection-start="843" selection-end="843" vertical-scroll-proportion="-20.192308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/vocabbi_document_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="235" selection-end="235" vertical-scroll-proportion="-1.3">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

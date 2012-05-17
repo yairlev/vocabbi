@@ -42,6 +42,15 @@
 
     },
 
+    get_default_language: function () {
+        return localStorage["default_language"] || LanguageCodes.getCode(LanguageCodes.en);
+    },
+
+    set_default_language: function (languageCode) {
+        localStorage["default_language"] = languageCode;
+        Settings._onUpdate({ key: "default_language", value: languageCode });
+    },
+
     set_language_pairs: function (language_pairs) {
         localStorage["language_pairs"] = JSON.stringify(language_pairs);
         Settings._onUpdate({ key: "language", value: language_pairs });

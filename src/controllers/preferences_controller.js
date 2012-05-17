@@ -20,6 +20,14 @@
         //get the language pairs
         this._add_language_pairs(Settings.get_language_pairs());
 
+        this.default_language = Settings.get_default_language();
+
+        $('#default_lang').val(this.default_language);
+
+        $('#default_lang').change(function() {
+            me.default_language = $(this).val();
+        });
+
         $('.key_codes').val(Settings.get_keyCode());
         $('.font_size').val(Settings.get_fontSize());
         $('.current_color_container').css('background-color', Settings.get_tooltipColor());
@@ -141,6 +149,9 @@
     },
 
     ".save click": function (el, ev) {
+
+        Settings.set_default_language(this.default_language);
+
         Settings.set_language_pairs(this.language_pairs);
 
         Settings.set_tooltipColor(this.tooltipColor);
