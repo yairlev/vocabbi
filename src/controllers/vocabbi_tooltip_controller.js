@@ -44,7 +44,7 @@ $.Controller.extend('VocabbiTooltip',
 
         if (!this.arrow) {
             //Create the new arrow
-            this.arrow = $('<div\>').addClass('vocabbi_element vocabbi-tooltip-down');
+            this.arrow = $('<div\>').addClass('vocabbi-tooltip-down vocabbi_element');
         }
 
         this.arrow.css('border-color', arrowColor);
@@ -99,7 +99,7 @@ $.Controller.extend('VocabbiTooltip',
         }
 
         text = targetText || '&nbsp';
-        var content = text != '&nbsp' ? '<span style="font-size:' + fontSize + 'px;" class="vocabbi_element vocabbi_content_ref">' + text + '</span>' : '<span style="font-size:' + fontSize + 'px;">' + text + '</span>';
+        var content = text != '&nbsp' ? '<span style="font-size:' + fontSize + 'px;" class="vocabbi_content_ref vocabbi_element">' + text + '</span>' : '<span style="font-size:' + fontSize + 'px;">' + text + '</span>';
 
         var rectWidth = this.rect.width;
 
@@ -182,13 +182,13 @@ $.Controller.extend('VocabbiTooltip',
 
 
         if (this.element.position().top < rect.top + $(document).scrollTop()) {
-            arrow.attr('class', 'vocabbi_element vocabbi-tooltip-down');
-            arrowTop = rect.top + $(document).scrollTop() - arrow.outerHeight() - tootipTopHover - 1;
+            arrow.attr('class', 'vocabbi-tooltip-down vocabbi_element');
+            arrowTop = rect.top + $(document).scrollTop() - arrow.outerHeight() - tootipTopHover - 2;
 
         }
         else {
             arrow.attr('class', 'vocabbi_element vocabbi-tooltip-up');
-            arrowTop = rect.top + $(document).scrollTop() + rect.height + tootipTopHover + 1;
+            arrowTop = rect.top + $(document).scrollTop() + rect.height + tootipTopHover + 2;
         }
 
         arrow.css('left', arrowLeft + 'px');
