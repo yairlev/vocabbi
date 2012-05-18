@@ -1,1 +1,1 @@
-python packager.py -v 3.5 -d ../src
+python packager.py -v 3.6 -d ../src
