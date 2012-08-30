@@ -1,5 +1,4 @@
-﻿
-chrome.tabs.query({currentWindow: true}, function (tabs) {
+﻿chrome.tabs.getAllInWindow(null, function (tabs) {
     for (var tab in tabs) {
         chrome.pageAction.show(tabs[tab].id);
     }

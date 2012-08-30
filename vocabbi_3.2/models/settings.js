@@ -74,12 +74,13 @@
     _onUpdate: function (data) {
         data['op'] = 'settingsUpdate';
         chrome.windows.getAll(null, function (windows) {
-            for (var key in windows) {
+            for (var win in windows) {
                 //get all tabs in the current window
-                chrome.tabs.query( { windowId: windows[key].id }, function callback(tabs) {
-                    for (var key in tabs) {
+                chrome.tabs.getAllInWindow(windows[win].id, function callback(tabs) {
+                    for (var tab in tabs) {
                         //send settings updates to all open tabs in the current window
-                        chrome.tabs.sendRequest(tabs[key].id, data);
+                        console.log(data['key']);
+                        chrome.tabs.sendRequest(tabs[tab].id, data);
                     }
                 });
             }

@@ -1,0 +1,127 @@
+.vocabbi_element
+{
+	padding:initial;
+	margin:initial;
+	border:initial;
+	border-spacing:initial;
+	font:initial;
+	background:initial;
+	opacity:initial;
+}
+.vocabbi_wrapper_selected
+{
+	background:#323268;
+	color:#ffffff;
+}
+.vocabbi_wrapper .vocabbi_wrapper_selected
+{
+	padding:0px;
+	margin:0px;
+}
+.vocabbi-tooltip
+{
+	padding: 0px;
+	margin: 0px;
+	opacity:0.97;
+	position:absolute;
+	z-index:1000000;
+	table-layout:fixed;
+	border-collapse:separate;
+	border-spacing:0px;
+}
+.vocabbi-tooltip-a
+{
+	border-radius: 8px 0 0 8px;
+	width: 23px;
+	cursor: pointer;
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(136,191,232,1)), color-stop(100%,rgba(112,176,224,1)));*/
+	padding: 0px;
+    margin: 0px;
+	text-align:center;
+	vertical-align: middle;
+}
+.vocabbi-tooltip-b
+{
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(136,191,232,1)), color-stop(100%,rgba(112,176,224,1)));*/
+	color: #fff;
+	padding: 7px 0px;
+	margin: 0px;
+	text-align:center;
+	vertical-align: middle;
+}
+.vocabbi-tooltip-c
+{
+	border-radius: 0 8px 8px 0;
+	width: 23px;
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(136,191,232,1)), color-stop(100%,rgba(112,176,224,1)));*/
+	padding: 7px 0px;
+	margin: 0px;
+	vertical-align: middle;
+	text-align:center;
+}
+.vocabbi-tooltip-content
+{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(136,191,232,1)), color-stop(100%,rgba(112,176,224,1)));
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	display:table;
+}
+.vocabbi_content_ref
+{
+	/*text-decoration:underline;*/
+	/*cursor:pointer;*/
+	font-family:Arial,Sans-Serif;
+}
+.vocabbi-tooltip .vocabbi-tooltip-a:hover, .vocabbi-tooltip .vocabbi-tooltip-c:hover
+{
+	opacity: 1;
+}
+.vocabbi-tooltip-inner
+{
+	display:table-cell; 
+	vertical-align:middle;
+}
+.vocabbi-tooltip-up
+{
+	position: absolute;
+	border-style: solid;
+	/*border-color: rgba(136,191,232,1) transparent;*/
+	border-width: 0px 10px 10px 10px;
+	background-color: transparent;
+	z-index: 1000;
+}
+.vocabbi-tooltip-down
+{
+	position: absolute;
+	border-style: solid;
+	/*border-color: rgba(112,176,224,1) transparent;*/
+	border-width: 10px 10px 0px 10px;
+	background-color: transparent;
+	z-index: 1000;
+	margin:0px;
+	padding:0px;
+}
+/* mobilyblocks */
+.vocabbi-tooltip a
+{
+	color: #fff;
+}
+.vocabbi-tooltip a img
+{
+	border: none;
+}
+.vocabbi-speaker
+{
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	display:inline;
+	vertical-align:middle;
+	position:relative;
+	top:-1px;
+}
+.vocabbi-star
+{
+	display:inline;
+}

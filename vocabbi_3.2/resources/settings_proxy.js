@@ -25,6 +25,7 @@
             function (request, sender, sendResponse) {
                 if (request['op'] == 'settingsUpdate')
                 {
+                    console.log('received - ' + request['key']);
                     me[request['key']] = request['value'];
                 }
         });
