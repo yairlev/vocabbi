@@ -1,7 +1,7 @@
 {
     "name": "Vocabbi Dictionary",
-    "version": "3.0",
     "manifest_version": 1,
+    "version":"3.1",
     "options_page": "preferences.html",
     "description": "Translate a single word or a paragraph by simply clicking your mouse. Translations by Google.",
     "icons": {"16": "images/icon_16.png", "32":"images/icon_32.png", "48": "images/icon_48.png", "128": "images/icon_128.png"},

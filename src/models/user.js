@@ -10,6 +10,7 @@
 
         $(document).bind('keydown', function (e) { me.key_down(e, me); });
         $(document).bind('keyup', function (e) { me.key_up(e, me); });
+        $(document).bind('mousedown', function (e) { me._mousePos = { top: e.clientY, left: e.clientX } });
         $(document).bind('mouseup', function (e) { me.mouse_up(e, me); });
         document.addEventListener("contextmenu", function (e) {
             if (me.keyDown == me.settings.key_code) { e.preventDefault(); }
@@ -51,7 +52,22 @@
             //if text was selected
             if (document.getSelection() && document.getSelection().toString() != '') {
                 if (me.select) {
-                    me.select.call(me.select.context, document.getSelection().toString(), document.getSelection().getRangeAt(0).getBoundingClientRect());
+
+                    var rect;
+
+                    if (document.activeElement.nodeName == "TEXTAREA" || document.activeElement.nodeName == "INPUT") {
+                        var top = me._mousePos.top;
+                        var left = me._mousePos.left;
+                        var height = Math.abs(top - e.top);
+                        var width = Math.abs(left - e.clientX);
+
+                        rect = { top: top, left: left, height: height, width: width }
+                    }
+                    else {
+                        rect = document.getSelection().getRangeAt(0).getBoundingClientRect();
+                    }
+
+                    me.select.call(me.select.context, document.getSelection().toString(), rect);
                 }
             }
             //if text was not selected by the user prior to the mouse-up event

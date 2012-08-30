@@ -1,127 +1,127 @@
 .vocabbi_element
 {
-	padding:initial;
-	margin:initial;
-	border:initial;
-	border-spacing:initial;
-	font:initial;
-	background:initial;
-	opacity:initial;
+	padding:initial !important;
+	margin:initial !important;
+	border-style:initial !important;
+	border-spacing:initial !important;
+	/*font:initial !important;*/
+	/*background:initial !important;*/
+	/*opacity:initial !important;*/
 }
 .vocabbi_wrapper_selected
 {
-	background:#323268;
-	color:#ffffff;
+	background:#323268 !important;
+	color:#ffffff !important;
 }
 .vocabbi_wrapper .vocabbi_wrapper_selected
 {
-	padding:0px;
-	margin:0px;
+	padding:0px !important;
+	margin:0px !important;
 }
 .vocabbi-tooltip
 {
-	padding: 0px;
-	margin: 0px;
-	opacity:0.97;
-	position:absolute;
-	z-index:1000000;
-	table-layout:fixed;
-	border-collapse:separate;
-	border-spacing:0px;
+	padding: 0px !important;
+	margin: 0px !important;
+	opacity:0.97 !important;
+	position:absolute !important;
+	z-index:1000000 !important;
+	table-layout:fixed !important;
+	border-collapse:separate !important;
+	border-spacing:0px !important;
 }
 .vocabbi-tooltip-a
 {
-	border-radius: 8px 0 0 8px;
-	width: 23px;
-	cursor: pointer;
+	border-radius: 8px 0 0 8px !important;
+	width: 23px !important;
+	cursor: pointer !important;
 	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(136,191,232,1)), color-stop(100%,rgba(112,176,224,1)));*/
-	padding: 0px;
-    margin: 0px;
-	text-align:center;
-	vertical-align: middle;
+	padding: 0px !important;
+    margin: 0px !important;
+	text-align:center !important;
+	vertical-align: middle !important;
 }
 .vocabbi-tooltip-b
 {
 	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(136,191,232,1)), color-stop(100%,rgba(112,176,224,1)));*/
-	color: #fff;
-	padding: 7px 0px;
-	margin: 0px;
-	text-align:center;
-	vertical-align: middle;
+	color: #fff !important;
+	padding: 7px 0px !important;
+	margin: 0px !important;
+	text-align:center !important;
+	vertical-align: middle !important;
 }
 .vocabbi-tooltip-c
 {
-	border-radius: 0 8px 8px 0;
-	width: 23px;
+	border-radius: 0 8px 8px 0 !important;
+	width: 23px !important;
 	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(136,191,232,1)), color-stop(100%,rgba(112,176,224,1)));*/
-	padding: 7px 0px;
-	margin: 0px;
-	vertical-align: middle;
-	text-align:center;
+	padding: 7px 0px !important;
+	margin: 0px !important;
+	vertical-align: middle !important;
+	text-align:center !important;
 }
 .vocabbi-tooltip-content
 {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(136,191,232,1)), color-stop(100%,rgba(112,176,224,1)));
-	height: 100%;
-	padding: 0px;
-	margin: 0px;
-	display:table;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(136,191,232,1)), color-stop(100%,rgba(112,176,224,1))) !important;
+	height: 100% !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	display:table !important;
 }
 .vocabbi_content_ref
 {
 	/*text-decoration:underline;*/
 	/*cursor:pointer;*/
-	font-family:Arial,Sans-Serif;
+	font-family:Arial,Sans-Serif !important;
 }
 .vocabbi-tooltip .vocabbi-tooltip-a:hover, .vocabbi-tooltip .vocabbi-tooltip-c:hover
 {
-	opacity: 1;
+	opacity: 1 !important;
 }
 .vocabbi-tooltip-inner
 {
-	display:table-cell; 
-	vertical-align:middle;
+	display:table-cell !important;
+	vertical-align:middle !important;
 }
 .vocabbi-tooltip-up
 {
-	position: absolute;
-	border-style: solid;
-	/*border-color: rgba(136,191,232,1) transparent;*/
-	border-width: 0px 10px 10px 10px;
-	background-color: transparent;
-	z-index: 1000;
+	position: absolute !important;
+	border-style: solid !important;
+	/*border-color: rgba(136,191,232,1) transparent !important;*/
+	border-width: 0px 10px 10px 10px !important;
+	background-color: transparent !important;
+	z-index: 1000 !important;
 }
 .vocabbi-tooltip-down
 {
-	position: absolute;
-	border-style: solid;
-	/*border-color: rgba(112,176,224,1) transparent;*/
-	border-width: 10px 10px 0px 10px;
-	background-color: transparent;
-	z-index: 1000;
-	margin:0px;
-	padding:0px;
+	position: absolute !important;
+	border-style: solid !important;
+	/*border-color: rgba(112,176,224,1) transparent !important;*/
+	border-width: 10px 10px 0px 10px !important;
+	background-color: transparent !important;
+	z-index: 1000 !important;
+	margin:0px !important;
+	padding:0px !important;
 }
 /* mobilyblocks */
 .vocabbi-tooltip a
 {
-	color: #fff;
+	color: #fff !important;
 }
 .vocabbi-tooltip a img
 {
-	border: none;
+	border: none !important;
 }
 .vocabbi-speaker
 {
-	width:16px;
-	height:16px;
-	cursor:pointer;
-	display:inline;
-	vertical-align:middle;
-	position:relative;
-	top:-1px;
+	width:16px !important;
+	height:16px !important;
+	cursor:pointer !important;
+	display:inline !important;
+	vertical-align:middle !important;
+	position:relative !important;
+	top:-1px !important;
 }
 .vocabbi-star
 {
-	display:inline;
+	display:inline !important;
 }
